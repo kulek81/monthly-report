@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page Example</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section id="home">
+      <div class="container">
+        <h1>Welcome to Our Landing Page</h1>
+        <p>We offer amazing services to boost your business.</p>
+        <button onclick="showAlert()">Learn More</button>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>
+          We are a team of dedicated professionals committed to providing the
+          best services.
+        </p>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <p>We offer a wide range of services to meet your needs.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>Feel free to reach out to us for more information.</p>
+        <form id="contact-form">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your Name"
+            required
+          />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your Email"
+            required
+          />
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
